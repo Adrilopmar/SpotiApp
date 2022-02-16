@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+body.dark-mode{
+    --bkg-color: rgb(240, 240, 240);
+    --text-color:#000;
+    --btn-bg-color:rgb(1, 63, 11);
+    --btn-txt-color:#fff;
+    
+}
+body{
+    --text-color:#eee;
+    --bkg-color:rgb(27, 21, 21);
+    --btn-txt-color: rgb(46,43,43);
+    --btn-bg-color: rgb(20,211,195);
+}
+body{
+    background-color: var(--bkg-color);
+}
+a{
+    color: var(--text-color);
+}
