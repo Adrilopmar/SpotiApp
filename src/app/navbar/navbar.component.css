@@ -1,3 +1,10 @@
+.nav-bar{
+    background-color: #191414;
+}
+img{
+    height: 40px;
+    margin: 20px;
+}
 button{
     padding: 10px;
     color: var(--btn-txt-color);

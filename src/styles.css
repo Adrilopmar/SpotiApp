@@ -1,17 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
-body.dark-mode{
-    --bkg-color: rgb(240, 240, 240);
+body{
+    --bkg-color: rgb(243, 192, 83);
     --text-color:#000;
     --btn-bg-color:rgb(1, 63, 11);
     --btn-txt-color:#fff;
+    --card-bg-color: rgb(121, 148, 49)
     
 }
-body{
+body.dark-mode{
     --text-color:#eee;
-    --bkg-color:rgb(27, 21, 21);
+    --bkg-color:rgb(44, 44, 44);
     --btn-txt-color: rgb(46,43,43);
     --btn-bg-color: rgb(20,211,195);
+    --card-bg-color: rgb(121, 148, 49)
 }
 body{
     background-color: var(--bkg-color);

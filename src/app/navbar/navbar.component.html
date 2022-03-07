@@ -1,6 +1,5 @@
-<nav>
-    <a routerLink="home">click to go home</a>
-    <input type="checkbox" (change)="onToggle()">
-    
-    <button>asdadasd</button>
+<nav class="nav-bar ">
+    <a routerLink="home" class="logo-link"> <img src="assets/img/Spotify_Logo_RGB_Green.png" alt=""></a>
+    <input type="checkbox" name="switch" (change)="onToggle()">
+    <label for="switch"> <fa-icon [icon]="faMoon"></fa-icon>  </label>
 </nav>
