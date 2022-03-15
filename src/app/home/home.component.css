@@ -1,19 +1,29 @@
 
-.container{
-    width: 100%;
-    height: 500px;
+.baralla{
+    flex-wrap: wrap;
+   display: flex;
+   margin-left: auto;
+   padding: 10px auto;  
 }
-.osc{
-    color: var(--text-color);
-   font-size: 54px;
-   margin-top: 25%;
-   font-weight: bolder;
-}
-.cum{
-    font-size: 124px;
-    font-weight: bolder;
-    color: rgb(240, 240, 240);
-}
-.card{
+
+.carta{
+    box-sizing: border-box;
     background-color: var(--card-bg-color);
+   width: 15rem;
+   margin: 10px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.3) 0px 15px 12px;
 }
+
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+} 
+.description{
+    padding: 10px 20px ;
+}
+p{
+    margin: 5px;
+    color: var(--text-color);
+} 

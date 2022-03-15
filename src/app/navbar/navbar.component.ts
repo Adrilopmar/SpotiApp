@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { DarkmodeService } from '../services/darkmode.service';
-import { faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -10,11 +10,15 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor( private DarkmodeSVC:DarkmodeService) { }
+  constructor( private DarkmodeSVC:DarkmodeService) { 
+    
+  }
   darkMode: any=this.DarkmodeSVC.darkmode$
   faMoon=faMoon
+  faSun=faSun
   onToggle():void{
     this.DarkmodeSVC.onToggle()
+    this.darkMode =this.DarkmodeSVC.darkmode$
   }
 
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { SpotiapiService } from '../services/spotiapi.service';
 
 
 @Component({
@@ -9,16 +10,22 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomeComponent implements OnInit {
 
-  constructor
-  (
-    private http:HttpClient
-    ) { }
+  constructor(private spotiAPI: SpotiapiService) { }
 
   ngOnInit(): void {
   }
-  spoti:string = 'https://api.spotify.com'
-  request(){
-   return this.http.get(this.spoti).subscribe(data=>console.log(data))
+  newReleases:any[] = [];
+  getBearer(){
+    return 
   }
 
+  getNewReleases(){
+   this.spotiAPI.getNewReleases()
+   .subscribe((data:any)=>{
+     console.log(data.albums.items)
+     this.newReleases = data.albums.items})
+  }
+conse(){
+  console.log(this.newReleases)
+}
 }

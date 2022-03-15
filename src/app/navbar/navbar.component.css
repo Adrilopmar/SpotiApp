@@ -1,5 +1,6 @@
 .nav-bar{
     background-color: #191414;
+    padding: 0;
 }
 img{
     height: 40px;
@@ -9,4 +10,13 @@ button{
     padding: 10px;
     color: var(--btn-txt-color);
     background-color: var(--btn-bg-color);
+}
+.label-dark-mode{
+    color: var(--light-text-color);
+    font-size: 24px;
+    margin: 20px;
+    padding: auto;
+}
+.switch-icon{
+    margin: auto 20px;
 }

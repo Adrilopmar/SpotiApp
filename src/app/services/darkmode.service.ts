@@ -9,6 +9,7 @@ export class DarkmodeService {
 
 onToggle():void{
  document.body.classList.toggle("dark-mode")
+ this.darkmode$ = !this.darkmode$
 }
   constructor() { }
 }
