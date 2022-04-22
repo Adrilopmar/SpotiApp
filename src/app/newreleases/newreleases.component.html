@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="baralla justify-content-center mt-2 mb-5">
+        <div  class="carta mt-5" *ngFor="let releases of newReleases"> 
+            <div class="">
+                <img [src]="releases.images | noimage" alt="">
+            </div>
+            <div class="description mt-2 mb-2">
+                <p class="track"><b>{{releases.name}}</b></p>
+                <p class="artist"><i>{{releases.artists[0].name}}</i></p>
+            </div>
+        </div>
+    </div>
+</div>
