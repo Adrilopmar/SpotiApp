@@ -9,12 +9,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { SearchComponent } from './search/search.component';
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { NewreleasesComponent } from './newreleases/newreleases.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    SearchComponent,
+    NoimagePipe,
+    NewreleasesComponent
   ],
   imports: [
     BrowserModule,

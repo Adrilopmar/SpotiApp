@@ -16,7 +16,19 @@ button{
     font-size: 24px;
     margin: 20px;
     padding: auto;
+
 }
 .switch-icon{
     margin: auto 20px;
+}
+a,
+fa-icon{
+    color: #c0c0c0;
+}
+a{
+    font-size: 18px;
+}
+
+a:hover, :focus{
+    color: #1db954;
 }
