@@ -23,10 +23,6 @@ body{
     background-color: var(--bkg-color);
     
 }
-
-a{
-    color: var(--text-color);
-}
 ul{
     list-style: none;
 }
