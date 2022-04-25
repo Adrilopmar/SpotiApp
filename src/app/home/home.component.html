@@ -1,0 +1,37 @@
+<section class="welcome">
+    <div class="container row justify-content-between">
+        <div class="col-6 content">
+            <h3>welcome to Adri's</h3>
+            <h2>SpotiApp</h2>
+            <p>Check out the new Spotify's releases or search if your favourite artist is abord!</p>
+        </div>
+        <div class="picture col-5">
+            <img src="assets/img/andrea-audio.jpg" alt="">
+        </div>
+    </div>
+    <div class="container row">
+        <div class="col-6 justify-content-around d-flex">
+            <button mat-raised-button routerLink="/newReleases" class="mt-5 startBrowse">New releases</button>
+            <button mat-raised-button routerLink="/search" class="mt-5 startBrowse">Search artist</button>
+        </div>
+    </div>
+</section>
+<section class="more-info">
+    <div class="container row justify-content-between">
+        <div class="col-6 content">
+            <h3>About this app</h3>
+            <h2>Made to learn</h2>
+            <p>This web app has been made with Angular to learn and improve.</p>
+            <p class="mt-3">Curious about the features?</p>
+        </div>  
+        <div class="picture col-5">
+            <img src="assets/img/Angular-API.jpg" alt="">
+        </div>
+    </div>
+    <div class="container row">
+        <div class="col-6 justify-content-center d-flex">
+            <button mat-raised-button class="mt-5 features" routerLink="/about">Check features</button>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

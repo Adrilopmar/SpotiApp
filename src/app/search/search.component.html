@@ -1,16 +1,18 @@
-<div class="row">
-    <div class="col">
-        <input #find type="text" (keyup)="search(find.value)" class="form-control mt-5" placeholder="Search for an artist...">
-    </div>
-</div>
 <div class="container">
-    <div class="baralla justify-content-center">
-        <div  class="carta mt-5" *ngFor="let artist of searchedArtist"> 
-            <div class="">
-                <img [src]="artist.images | noimage" alt="">
-            </div>
-            <div class="description mt-2 mb-2">
-                <p class="track"><b>{{artist.name}}</b></p>
+    <div class="row">
+        <div class="col">
+            <input #find type="text" (keyup)="search(find.value)" class="form-control mt-5" placeholder="Search for an artist...">
+        </div>
+    </div>
+    <div class="container">
+        <div class="baralla justify-content-center">
+            <div  class="carta mt-5" *ngFor="let artist of searchedArtist"> 
+                <div class="">
+                    <img [src]="artist.images | noimage" alt="">
+                </div>
+                <div class="description mt-2 mb-2">
+                    <p class="track"><b>{{artist.name}}</b></p>
+                </div>
             </div>
         </div>
     </div>

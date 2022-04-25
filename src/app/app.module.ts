@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { SearchComponent } from './search/search.component';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { NewreleasesComponent } from './newreleases/newreleases.component';
+import { MatButtonModule } from '@angular/material/button';
+import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 @NgModule({
   declarations: [
@@ -20,17 +24,20 @@ import { NewreleasesComponent } from './newreleases/newreleases.component';
     HomeComponent,
     SearchComponent,
     NoimagePipe,
-    NewreleasesComponent
+    NewreleasesComponent,
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FontAwesomeModule,
     BrowserAnimationsModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

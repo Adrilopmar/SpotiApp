@@ -18,6 +18,7 @@ button{
     padding: auto;
 
 }
+
 .switch-icon{
     margin: auto 20px;
 }
@@ -27,6 +28,7 @@ fa-icon{
 }
 a{
     font-size: 18px;
+    padding: 0 18px;
 }
 
 a:hover, :focus{

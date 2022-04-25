@@ -1,0 +1,32 @@
+.footer-content{
+    color: #f1f1f1;
+    background-color: #000;
+    padding: 50px 0;
+}
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.copyR{
+    margin-top: 25px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.icon{
+    margin-top: 10px;
+    font-size: 46px;
+}
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-instagram:hover{
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+.fa-github:hover{
+    color: #333;
+}
+.fa-instagram:hover{
+    color: #c13584;
+}

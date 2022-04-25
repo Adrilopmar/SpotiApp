@@ -3,11 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NewreleasesComponent } from './newreleases/newreleases.component';
 import { SearchComponent } from './search/search.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
+  
+  {path:'',  redirectTo:'home',  pathMatch:'full'},
   {path:'home', component:HomeComponent},
   {path:'newReleases', component:NewreleasesComponent},
   {path:'search', component:SearchComponent},
+  {path:'about', component:AboutComponent},
 ];
 
 @NgModule({
