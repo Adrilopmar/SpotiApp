@@ -1,10 +1,10 @@
 .footer-content{
-    color: #f1f1f1;
-    background-color: #000;
+    color: var(--none-changing-link-color);
+    background-color: #191414;
     padding: 50px 0;
 }
 a{
-    color: #f1f1f1;
+    color: var(--none-changing-link-color);
     text-decoration: none;
 }
 .copyR{
@@ -15,6 +15,9 @@ a{
 .icon{
     margin-top: 10px;
     font-size: 46px;
+}
+img{
+    opacity: 0.6;
 }
 .fa-linkedin:hover,
 .fa-github:hover,

@@ -5,19 +5,17 @@
 
 body{
     --bkg-color: rgb(211, 207, 197);
-    --text-color:#000;
-    --light-text-color:#eee;
-    --btn-bg-color:rgb(1, 63, 11);
-    --btn-txt-color:#fff;
+    --text-color:rgb(37, 37, 37);
     --card-bg-color: rgb(121, 148, 49);
-    
+    --none-changing-text-color:#c0c0c0;
+    /* negative theme */
+
 }
 body.dark-mode{
-    --text-color:#eee;
+    --text-color:#c0c0c0;
     --bkg-color:rgb(44, 44, 44);
-    --btn-txt-color: rgb(46,43,43);
-    --btn-bg-color: rgb(20,211,195);
     --card-bg-color: rgb(58, 78, 6);
+    /* negative theme */
 }
 body{
     background-color: var(--bkg-color);

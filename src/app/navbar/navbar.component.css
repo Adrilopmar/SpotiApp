@@ -8,8 +8,8 @@ img{
 }
 button{
     padding: 10px;
-    color: var(--btn-txt-color);
-    background-color: var(--btn-bg-color);
+    color: var(--none-changing-text-color);
+    
 }
 .label-dark-mode{
     color: var(--light-text-color);
@@ -24,7 +24,7 @@ button{
 }
 a,
 fa-icon{
-    color: #c0c0c0;
+    color: var(--none-changing-text-color);
 }
 a{
     font-size: 18px;
