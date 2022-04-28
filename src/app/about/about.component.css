@@ -1,0 +1,8 @@
+.features{
+    background-color: #3f37c9;
+    color: #f1f1f1;
+}
+.info-dark{
+    background-color: var(--bkg-color);
+    color: var(--text-color);
+}
