@@ -1,8 +1,49 @@
 .features{
     background-color: #3f37c9;
     color: #f1f1f1;
+    width: 100%;
+}
+.title-features{
+    padding: 70px 30px;
 }
 .info-dark{
-    background-color: var(--bkg-color);
-    color: var(--text-color);
+    background-color: rgb(44, 44, 44);
+    color: #c0c0c0;
+    padding: 100px 0;
+}
+.info-light{
+    background-color: rgb(211, 207, 197);
+    color: rgb(37, 37, 37);
+    padding: 100px 0;
+}
+h2{
+    font-size: 78px;
+    font-weight: bolder;
+    margin: 0;
+    
+}
+h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.d-nd-l-icon{
+    font-size: 84px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.info-feature{
+    padding: 100px 30px;
+    margin: auto;
+}
+.spoti-info{
+    background-color: #43AA8B;
+}
+.content{
+    padding: 0;
+}
+img{
+    width: 100%;
+    margin: auto 0;
 }

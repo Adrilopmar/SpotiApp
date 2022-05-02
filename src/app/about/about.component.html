@@ -1,8 +1,48 @@
 <div class="features">
-    <h2>Features implemented</h2>
-    <div class="  ">
-        <div class="info-dark d-flex justify-content-center">
-            <h3>Dark Mode & Light Mode</h3>
+    <div class="container title-features">
+        <h2>Features</h2>
     </div>
+    <section class=" d-flex justify-content-around d-nd-l ">
+        <div class="info-dark col-6 row justify-content-center">
+            <h3 class="col-12 text-center">Dark Mode</h3>
+            <fa-icon [icon]="faMoon" class="d-nd-l-icon text-center mt-3" ></fa-icon>
+            <p class="w-75 mt-3 text-center">It is always a good idea to implement diferents palettes to your web in order to let the user decide which mode to use. </p>
+        </div>
+        <div class="info-light col-6 row justify-content-center">
+            <h3 class="col-12 text-center">Light Mode</h3>
+            <fa-icon [icon]="faSun" class="d-nd-l-icon text-center mt-3" ></fa-icon>
+            <p class="w-75 mt-3 text-center">There are a lot of reasons to introduce dark mode. The mains reasons to set up this feature were to learn how dark/light mode work and
+                reduce eye strain.
+
+            </p>
+        </div>
+    </section>
+    <section class="container row info-feature justify-content-between">
+        <div class="col-12 col-lg-6 content">
+            <h3>Async () => {{'{ Await }'}}</h3>
+            <p class="mt-3">This Java Script feature is used to make functions asynchronous. It is not rare to need to wait a result before executing the next function. Sounds logic right?
+                So if you do not use async and await function sometimes you get errors. </p>
+            <p  class="mt-3">One of the purpose of this project was learning how to <b>Async / Await </b> work. I may say that after several errors and hours of hard work, I am familiarized with this Java Script feature.
+            </p>
+        </div>  
+        <div class="col-12 col-lg-5 mt-5 mt-lg-0 d-flex">
+            <img src="assets/img/async.jpg" alt="">
+        </div>
+    </section>
+    <section class="spoti-info">
+        <div class="container row info-feature justify-content-between">
+        <div class="col-12 col-lg-6 content">
+            <h3>Linked to Spotify API</h3>
+            <p class="mt-3">Fetching data and working with API (Application Programming Interface) is really common in front-end world. So I built this web Application
+                to learn and get used to work with APIs. 
+            </p>
+            <p  class="mt-3">Spotify API have been a great practice where I have worked with headers and <b>authorization's tokens</b> for the purpose of fetching API's data.
+            </p>
+        </div>  
+        <div class="col-12 col-lg-5 mt-5 mt-lg-0 d-flex">
+            <img src="assets/img/webAPI.png" alt="">
+        </div>
+    </div>
+    </section>
 </div>
 <app-footer></app-footer>

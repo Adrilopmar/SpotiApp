@@ -1,10 +1,10 @@
 .footer-content{
-    color: var(--none-changing-link-color);
+    color: var(--none-changing-text-color);
     background-color: #191414;
     padding: 50px 0;
 }
 a{
-    color: var(--none-changing-link-color);
+    color: var(--none-changing-text-color);
     text-decoration: none;
 }
 .copyR{
